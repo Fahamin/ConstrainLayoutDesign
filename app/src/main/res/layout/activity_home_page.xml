@@ -213,11 +213,11 @@
 
 
     <LinearLayout
+        android:id="@id/ll_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:id="@id/ll_one"
         android:background="@drawable/button_round_white"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -259,11 +259,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/ll_two"
         android:background="@drawable/button_round_white"
         android:orientation="horizontal"
         app:layout_constraintLeft_toRightOf="@+id/ll_one"
@@ -305,11 +305,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_three"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/ll_three"
         android:background="@drawable/button_round_white"
         android:orientation="horizontal"
         app:layout_constraintLeft_toRightOf="@+id/ll_two"
@@ -352,11 +352,11 @@
 
 
     <LinearLayout
+        android:id="@id/ll_four"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:id="@id/ll_four"
         android:background="@drawable/button_round_white"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -398,11 +398,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_five"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/ll_five"
         android:background="@drawable/button_round_white"
         android:orientation="horizontal"
         app:layout_constraintLeft_toRightOf="@+id/ll_four"
@@ -444,11 +444,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_six"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/ll_six"
         android:background="@drawable/button_round_white"
         android:orientation="horizontal"
         app:layout_constraintLeft_toRightOf="@+id/ll_five"
@@ -490,7 +490,6 @@
     </LinearLayout>
 
 
-
     <TextView
         android:id="@+id/tv_complete"
         android:layout_width="wrap_content"
@@ -502,5 +501,41 @@
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ll_four" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_blue"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/check" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/check" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/check" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/check" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
